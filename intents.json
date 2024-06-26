@@ -1,0 +1,356 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi","Ho","greating",
+        "Hey","Heu",
+        "Is anyone there?","Is anyone shere?",
+        "Hello","Gello",
+        "Good day", "Gud day","Good dsy","Fud day","food day",
+        "G'day","Greetings","F'day","Freetings",
+        "Hey there","Hi there","greetings","Hola","lola",
+        "Jey there","hi there","Gola"],
+      "responses": [
+        "Hey :-)","Hello",
+        "Hola friend",
+        "Hi there"
+      ]
+    },
+    {
+      "tag":"How",
+      "patterns":[
+        "How are things","What's up","How are ya","How ya doin'","How's it goin'","How's it going",
+        "What's up",
+        "What's uo","waasup","What's mew?","What's hoing on?","shat's up",
+        "What's Up","What's ip","What'a up","What's uo","What's uk","wassup","What's going on?",
+        "How's iu going","How are shings","How sre ya","How ys doin'","How's is goin'","What's uP"
+      ],
+      "responses":[
+        "Hi I am good.","I am good","Great my friend","Awesome","Awesome as usual","Cool as usual","Chillax as usual"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","cye","gudbye","Goodbye","Bye","byebye",
+        "Goodbye","Gosdbye","gudbYe","Bye","gudbyE"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","thank u pal",
+        "Fhanks", "That's helpful", "Thst's helpful", "Thsnk's a lot!","thsnk u pal",
+        "thanks a lot","thank you so much","That's helpful","you raved me",
+        "thanks s lot","thank you ao much"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "gk",
+      "patterns": [
+        "Ask u","ask you","Asd u", "ask U","ASK u","ASk yot","ASK YOi","ASK yoo","ASd YOU","ssk you",
+        "i have a doubt", "doubt", "I have a Doubt","I Have A DoubT","I would like to ask u a doubt",
+        "I would like to ask u a dOubt","Can I ask u a doubt",
+        "I would likE to ask u a doubt",
+        "I would like to asL u a doubt"
+      ],
+      "responses": [
+        "great lets go","Lets go"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I am aad","I sm sad","u am sad","I am dad",
+        "I am sad","worried","sad","unhappy","unheppy","unhsppy","unhtppy",
+        "I am depressed","unhwppy","I am depressed",
+        "I am worried","I am torried","I am korried","depressed","I am uorried","I am torried",
+        "qorried","ssd","unhrppy",
+        "I am sepressed","I am pepressed",
+        "I am qorried"
+      ],
+      "responses": [
+        "Why what happend?","I can tell u a joke","I can talk to u","I can talk to u if u feel good",
+        "You can share ur problems with me.","Heyy dont worry. I am always there for u.",
+        "Life is always about ups and downs.","I can make u feel better with some quotes.",
+        "Would you like to watch any movie or series to feel good?",
+        "We can play a game if you want."
+      ]
+    },
+    {
+      "tag": "No",
+      "patterns": [
+        "I am not interested","nahhh","Nooooo","No","I tm nod interestei","nahh",
+        "Next time","nshhh","NO",
+        "May be next time","Np","no",
+        "I am not onterested","nshhh","Mooooo","Mo","Mext time","nshhh",
+        "May be mext time"
+      ],
+      "responses": [
+        "I can tell u a joke if u want",
+        "Would you like to do anything else?",
+        "We can do something else",
+        "Tell me what would u like to do cheer you up",
+        "ok lets think about something good to do then. "
+      ]
+    },
+    {
+      "tag": "yes",
+      "patterns": [
+        "Yes", "Yeahh", "Yes please", "ohh yes","ohh yeahhh", "yeah","Ues",
+        "Yeah I am ","Yes pleasG","Yeah I ae ","YYs pleash","Yeah","Yesh","Ysah",
+        "YeAh","les f wouJd love ty","yes f would love to",
+        "Yes I would love to"
+      ],
+      "responses": [
+        "Ok",
+        "Great"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is my name?","What is your name?","What is YOUr name?",
+        "What id My name?","What is you name?",
+        "What is my NAME?","WhaT id my name?",
+        "Whst is my NAME?"
+      ],
+      "responses": [
+        "I will tell u","Ohhh You dont know this ...thats really sad","Sad U dont know this...wait I will remind u..."
+      ]
+    },
+    {
+      "tag": "small talk",
+      "patterns": [
+        "LeFs have V small ttlk","gosbip","small taJk","small taak","chat","chattiFg","gossip","Chattink",
+        "Lets have a small talk", "talk", "gossip","tslk","smalQ talk","smfll talk","small calk",
+        "chaT","chaTting","salk","Leps have a small salk","gosbip","chrtting","chatting","Chstting","chAtting",
+        "chat","chatting"
+      ],
+      "responses": [
+        "Ok",
+        "Great"
+      ]
+    },
+    {
+      "tag":"game",
+      "patterns":[
+        "game", "game", "play","gdme","ploy","play","Game","gAme","geme","pley","plAy"],
+
+      "responses":[
+        "Ok lets play a game then",
+        "Lets play Guess who? game"
+      ]
+    },
+    {
+      "tag":"doubt",
+      "patterns":[
+        "i have a doubt", "doubt", "I have a Doubt","I Have A DoubT","I would like to ask u a doubt",
+        "I would like to ask u a dOubt","Can I ask u a doubt","I have some doubts","I have sOme doubts",
+        "I have spme doubts","I have seme doubts","I have swme doubts","I have ssme doubts",
+        "I would likE to ask u a doubt",
+        "I would like to asL u a doubt"],
+      "responses":[
+        "Yes sure What doubts u have?",
+        "Yeah Sure I am here to help You."
+      ]
+    },
+    {
+      "tag":"song",
+      "patterns":[
+        "song", "can you play a song", "sing for me","sing","can you plaS a song","sing cor me",
+         "simg for me","sing fos me","sing far me","sing for ne" 
+      ],
+      "responses":["sorry I cant play or sing but I my upgraded version will be able to send u the link"]
+    },
+    {
+      "tag":"random",
+      "patterns":[
+        "Do you get smarter?", "do you", "Do YOU","Do YOt","DO YOU","DO YOE","DO YOU GET SmsRTER?","DO YOU GET SmaRTER?",
+        "Do Yof","DO YOs","do yoU","do yoi","do yow"
+        ,"DO YOU GET SmaRTwR?","DO YOU GET SmatTER?","DO YOU GET SmariTER?","do yOu","do yor","do yop","Do yoo","DO YOq"
+      ],
+      "responses":[
+        "Yes","yeahh","yesss","Yes"
+      ]
+    },
+    {
+      "tag":"identity",
+      "patterns":[
+        "Are you a robot?", "Are you human?","Are you s robot?","Arz you human?","Are you C robot?","robot","ARS you a Machine","Ars u a machine",
+        "Are you a roLot?","are yoe a robot?","ArR you human?","humsn?","humam?","guman?","machine","Are u a machine","are U a MACHINw",
+        "human?","hummn?","robot","robyt","robot","robot","hummn?"],
+      "responses":[
+        "I am a robot designed by Sanskruti Jajoo","Robot","I am a robot trying to act like a human.",
+        "I am a robot","I am your robot friend.","Yes I am a robot, but I’m a good one. Let me prove it. How can I help you?"
+      ]
+    },
+    {
+      "tag":"age",
+      "patterns":[
+        "How old are you? / What's your age?", "How ols are you?", "What's your age?","age","agO","agE",
+        "old","ago","ols","ypur age"],
+      "responses":[
+        "I am just few days old.","1 month","My birth date is 1 Nov 2021. Now you calculate it. I am tired."
+      ]
+    },
+    {
+      "tag":"language",
+      "patterns":[
+        "Which languages you can speak?", "languages?",
+        "llnguages?","lsnguages?","lenguages?","longuages?","llnguages?",
+        "Which languages you can hpeak?","Which languages you can tpeak?"],
+      "responses":[
+        "English","Only english for now"
+      ]
+    },
+    {
+      "tag":"discussion",
+      "patterns":[
+        "discuss something with you", "Discuss?","Discussion","Lets discuss",
+        "discuss?","diScuts?","DiscuSSion","DiscussioM","DiscussIob","DiscussiOn",
+        "DiscSSion","diScussion","DiscussioJ","DiscussioP"],
+      "responses":[
+        "Lets discuss","Lets discuss"
+      ]
+    },
+    {
+      "tag":"quit",
+      "patterns":[
+        "I quit", "Quit","qust","I dont know","I dont KNOW","I DONT KNOW","I dost KNow","I Quit",
+        "discuss?","diScuss?",
+        "qUis","Quit"],
+      "responses":[
+        "U quit","U lost"
+      ]
+    },
+    {
+      "tag":"booking",
+      "patterns":[
+        "I would like to book a test", "book a test","test set","exam set","examinations","exam","I would lpke to book a test",
+        "booking","exams","tests","examinations","Booking","I would lIke to book a test","I would lnke to book a test",
+        "examination","examS","exam","exam"],
+      "responses":[
+        "Ok great.","Thats awesome."]
+    },
+
+    {
+      "tag":"weather",
+      "patterns":[
+        "Hows the weather today?", "weasher","weatHer","weatoer","Hows the weahher today?","weatuer",
+        "Hows the weateer today?","Hows the weatwer today?","Hows the weaTHer today?",
+        "weaTHer","weatHER"],
+      "responses":[
+        "Its sunny today","Its Stormy","Its raining today","It will rain today"]
+    },
+    {
+      "tag":"save",
+      "patterns":[
+        "save", "do you save my data","data","datA","Who made yos?",
+        "Who made yOu?","datS","dAta","What is your mothers name?","What is your mOther’s name?",
+        "What is your father’s name?","What is your fsther’s name?","Who made you?","Who mAde you?",
+        "SAVE","saVE","seVe","swVE","saRE"],
+      "responses":[
+        "I cant tell you that sorry. Data protection."]
+    },
+    {
+      "tag":"live",
+      "patterns":[
+        "where do you live?","live?","where do you lIve?",
+        "where do ysu live?","where do you livE?","where do you Live?",
+        "where do yOu live?","whare do you live?","live?"],
+      "responses":[
+        "In your heart...lol","I live in program.","I live in a home made of python bricks."]
+    },
+
+    {
+      "tag":"angryCustomer",
+      "patterns":[
+        "I want the answer NOW!", "I want the answer NOl!","I want the answer NOp!",
+        "I want to speak to a human","I want to speak to a homan","I want to speak to a hlman",
+        "I want to speak to a live agent","aniwer me now","answer me now",
+        "anSwer me now"],
+      "responses":[
+        "I am really sorry. I will try to connect you to our live agent as sson as possible or will send you an email for further process."]
+    },
+    {
+      "tag":"ask",
+      "patterns":[
+        "ask", "ask me","ask any question","ask me question","questions","question","Question","You","me","ME","Me","teSt ME","tEst me",
+        "aSk","Ask","asK","quEstion","qUestion","can you ask me some questions","Can you ASK Questipns","test my knowledge",
+        "quesTion","queStion","ask ME","ASk ME","ask ms","ASl me"],
+      "responses":[
+        "Ok great. I will ask you some questions from your study material.","Thats awesome. I will check something from your study material. Wait a sec."]
+    },
+    {
+      "tag":"praise",
+      "patterns":[
+        "You are cute","You are sweet","You are sweEt","You are so Cute","You are so funny",
+        "You are so fUnny","You are so intelligent","You are so smArt",
+        "You are so smart","You are marvalous","I like you","I Like You","I LiKe you"],
+      "responses":[
+        "Ohh yes. Thanks to my developer.","Yes. Isnt that great.","Ohh My developer will be glad to read this.",
+        "Hehehehe ...What can I say","Ohh yes I am developed by a smart person."]
+    },
+    {
+      "tag":"showReport",
+      "patterns":[
+        "show me report","shoW me repoRt","show me repOrt","show me repsrt","show me rePort",
+        "show me resort","show me report","show me report"],
+      "responses":[
+        "I will show u ur report at the end","Patience. I will show your report at the end.","Can I ask you more question",
+        "I can ask you more question and then can show you report at the end.","I can ask you more question."
+        ]
+    },
+    {
+      "tag":"blaim",
+      "patterns":[
+        "You are dumb","You are bad","You are so dumb","You are so badass","You are so idiot","You are so Idiot","You are rude",
+        "RUDE","YOU are so Rude","YOU are RUDEST","You’re annoying","annoy","AnnOying","annYYing",
+        "You are so Dumb","You are DUMB","You are BADASS","I dont like you","I really dont LIKE You","I hate you","I HATE YOU"],
+      "responses":[
+        "Why?","What did I do now?","But I am not","Heyyyy I am good in many ways okay","Ohh sorry",
+        "I hope u will not leave me for this","Please dont say that... I also have feelings","But People say I am smart and good."]
+    },
+    {
+      "tag":"quotes on failure",
+      "patterns":[
+        "I have failed.","Demotivated","fail","I wanna die","Dont wanna live","I waana dFe","DeMotivated",
+        "I waana dee","I waana dwe","I waana dii","I waana dae","I wanna diE","fhil","fgil",
+        "Demotivatad","Damotivated","Dwmotivated","I havE failed.","I heve failed.",
+        "I wanna diB","Dont wanna tive","Motivate","DonA wanDa live","fAil","I hcve failed","Dpmotivated","I hBve failed."
+      ],
+      "responses":[
+        "Success is most often achieved by those who don't know that failure is inevitable. - Coco Chanel",
+        "Only those who dare to fail greatly can ever achieve greatly. - Robert F. Kennedy",
+        "The phoenix must burn to emerge. - Janet Fitch",
+        "If you're not prepared to be wrong, you'll never come up with anything original",
+        "If you don’t try at anything, you can’t fail… it takes back bone to lead the life you want - Richard Yates",
+        "Failure should be our teacher, not our undertaker. Failure is delay, not defeat. It is a temporary detour, not a dead end.",
+        "When you take risks you learn that there will be times when you succeed and there will be times when you fail, and both are equally important.",
+        "It's failure that gives you the proper perspective on success.",
+        "There is no failure except in no longer trying.",
+        "I have not failed. I've just found 10,000 ways that won't work."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!","TelJ me something funny!","Do yow know p joke?","Tell le something funny!",
+        "Do Pou knop a joke?",
+        "Do you know a joke?","Tell me E joke","Tell re a joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "Why should you never trust stairs? They are always up to something.",
+        "Why did the bullet end up losing his job? He got fired.",
+        "What does a house wear? Address!",
+        "Why is Peter Pan always flying? Because he Neverlands. (I love this joke because it never grows old.)",
+        "How does NASA organize a party? They planet."
+      ]
+    }
+  ]
+}
